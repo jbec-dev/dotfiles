@@ -1,0 +1,25 @@
+# Extended Starship prompt: username, directory, git, etc.
+
+[username]
+style_user = 'bold #7b9c5c'
+style_root = 'bold red'
+format = '┌─ [$user]($style) '
+show_always = true
+
+[directory]
+style = 'cyan bold'        # color for directory path
+truncation_length = 3
+truncation_symbol = "…/"
+read_only = '[r]($style)' # show lock if directory is read-only
+
+[git_branch]
+symbol = ' '              # git branch icon
+style = 'blue bold'
+
+[git_state]
+format = '[\$state( $progress_current/$progress_total)]($style) '  # e.g. [⇡ 1/3]
+
+[character]
+success_symbol = '[└─#](bold)'
+error_symbol   = '[└─#](bold)'
+
