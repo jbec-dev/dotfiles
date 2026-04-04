@@ -1,5 +1,5 @@
 ## Hyprland Dotfiles
-- Hyprland
+- Hyprland & Hyprpaper
 - Kitty & Starship Terminal
 - Waybar
 
