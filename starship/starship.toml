@@ -1,5 +1,4 @@
 # Extended Starship prompt: username, directory, git, etc.
-
 [username]
 style_user = 'bold #7b9c5c'
 style_root = 'bold red'
@@ -10,7 +9,7 @@ show_always = true
 style = 'cyan bold'        # color for directory path
 truncation_length = 3
 truncation_symbol = "…/"
-read_only = '[r]($style)' # show lock if directory is read-only
+read_only = ' 󰉐' # show lock if directory is read-only
 
 [git_branch]
 symbol = ' '              # git branch icon

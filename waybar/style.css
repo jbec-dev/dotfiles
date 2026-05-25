@@ -36,6 +36,15 @@
   border-width: 0px;
 }
 
+#custom-apps{
+  background-color: rgba(15,27,53,0.9);
+  margin-top: 6px; 
+  margin-right: 6px;
+  padding: 4px 2px;
+  border-radius: 0 10px 10px 0;
+  border-width: 0px;
+}
+
 #network,
 #custom-lock{
   background-color: rgba(15,27,53,0.9);
@@ -53,6 +62,7 @@
 #backlight,
 #custom-temperature,
 #memory,
+#custom-weather,
 #cpu{
   background-color: rgba(15,27,53,0.9);
   margin-top: 6px;
@@ -60,7 +70,7 @@
   border-width: 0px;
 }
 
-#custpm-temperature.critical,
+#custom-temperature.critical,
 #pulseaudio.muted {
   color: #FF0000;
   padding-top: 0;
@@ -80,6 +90,7 @@
 #custom-lock:hover,
 #custom-reboot:hover,
 #custom-power:hover,
+#custom-weather:hover,
 /*#workspaces:hover,*/
 #window:hover {
   background-color: rgba(70, 75, 90, 0.9);
