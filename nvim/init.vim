@@ -1,1 +1,1 @@
-/home/jbec/.vimrc
+~/.vimrc
