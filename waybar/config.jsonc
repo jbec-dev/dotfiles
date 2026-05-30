@@ -72,7 +72,7 @@
     "format": " {}°C ",
     "tooltip": true,
     "interval": 3600,
-    "exec": "wttrbar --location=Nettetal",
+    "exec": "wttrbar --location=[REPLACE]",
     "return-type": "json"
   },
   "battery": {
